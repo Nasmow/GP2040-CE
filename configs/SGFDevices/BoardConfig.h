@@ -16,8 +16,8 @@
 #define FLATBOX_SW2_PIN    5
 #define FLATBOX_SW3_PIN    4
 #define FLATBOX_SW4_PIN    3
-#define FLATBOX_SW5_PIN    2
-#define FLATBOX_SW6_PIN    1
+#define FLATBOX_SW5_PIN    2  // L3
+#define FLATBOX_SW6_PIN    17 // R3
 #define FLATBOX_SW7_PIN    9  // LEFT
 #define FLATBOX_SW8_PIN    10 // DOWN
 #define FLATBOX_SW9_PIN    11 // RIGHT
@@ -118,7 +118,7 @@
 #define LEDS_DPAD_LEFT   0
 #define LEDS_DPAD_DOWN   1
 #define LEDS_DPAD_RIGHT  2
-#define LEDS_DPAD_UP     11
+#define LEDS_DPAD_UP     12
 #define LEDS_BUTTON_B3   3
 #define LEDS_BUTTON_B4   4
 #define LEDS_BUTTON_R1   5
@@ -127,7 +127,8 @@
 #define LEDS_BUTTON_B2   9
 #define LEDS_BUTTON_R2   8
 #define LEDS_BUTTON_L2   7
-
+#define LEDS_BUTTON_L3   11
+#define LEDS_BUTTON_R3   13
 
 // This is the Player LED section.
 // In this section you can specify if Player LEDs will be active, and, if active, which pins will be used for them.
